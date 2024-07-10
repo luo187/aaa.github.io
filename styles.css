@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    align-items: center;
+    margin: 20px;
+}
+
+.image-container {
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1.2em; /* 调整字体大小 */
+}
+
+.company-name {
+    font-size: 1.5em; /* 更大字体 */
+}
+
+.company-address, .contact-info, .email-info {
+    font-size: 1.3em; /* 较大字体 */
+}
